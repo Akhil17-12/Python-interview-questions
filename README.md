@@ -9,3 +9,6 @@ Using `set(list)` converts the list into a set, which automatically removes dupl
 ```python
 my_list = [1, 2, 2, 3]
 unique = list(set(my_list))
+
+### 3.3. Why are dictionaries faster than lists for lookups?
+Dictionaries use hashing, enabling O(1) lookup time. Lists require O(n) time to search.
